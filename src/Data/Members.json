@@ -1,0 +1,117 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. Md. Maniruzzaman Khandaker",
+    "designation": "Dean of the Faculty",
+    "Email": "mzkhandaker@bot.jnu.ac.bd",
+    "detail": "Research/Teaching interests: Plant Pathology, Food Mycology, Aeromycology, Seed Pathology, Biostatistics, Quality Education,    Scouting",
+    "img": "/images/sir/Dean.png"
+  },
+  {
+    "id": "2",
+    "name": "Dr. Shahrear Ahmad",
+    "designation": "Professor and Chairman",
+    "Email": "shahrear01@yahoo.com",
+    "img": "/images/sir/shahriar.jfif",
+    "detail": "Speciality: Ecology, Environment,Biodiversity,Plant Tissue Culture"
+  },
+  {
+    "id": "3",
+    "name": "Dr. Kazi Shakhawath Hossain",
+    "designation": "Professor (grade-II)",
+    "Email": "ksh1968@gmail.com",
+    "img": "/images/sir/Shakhawat.jfif",
+    "detail": "Experience: Gained a strong understanding of scientific methods during the course of 25 years of my professional career."
+  },
+  {
+    "id": "4",
+    "name": "Dr. Mst. Selina Momtaz",
+    "designation": "Pofessor",
+    "Email": "selinamomtaz@gmail.com",
+    "img": "/images/sir/default.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Dr. Kazi Nahida Begum",
+    "designation": "Professor ",
+    "Email": "kazinahida@bot.jnu.ac.bd",
+    "img": "/images/sir/nahida.png"
+  },
+  {
+    "id": "4",
+    "name": "Dr. Anika Tabassum",
+    "designation": "Associate Professor",
+    "Email": "anika@bot.jnu.ac.bd",
+    "img": "/images/sir/anika.png"
+  },
+  {
+    "id": "7",
+    "name": "Dr. G M Al Amin",
+    "designation": "Associate Professor",
+    "Email": "alamin25@gmail.com",
+    "img": "/images/sir/alamin.jfif"
+  },
+  {
+    "id": "8",
+    "name": "Dr. A.M.M. Golam Adam",
+    "designation": "Associate Professor",
+    "Email": "adamammg@bot.jnu.ac.bd",
+    "img": "/images/sir/adam.jfif",
+    "detail": "Research Area & Interest: Plant Physiology, Plant Biohemistry, Plant Nutrition, Horticulture, Physiological Ecology, Phytochemistry & Enzymes"
+  },
+  {
+    "id": "9",
+    "name": "Dr. Nahid Sultana",
+    "designation": "Associate Professor",
+    "Email": "nahid-botany@yahoo.com",
+    "img": "/images/sir/default.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Dr. Farhana Islam Khan",
+    "designation": "Associate Professor",
+    "Email": "farhana@bot.jnu.ac.bd",
+    "img": "/images/sir/default.jpg",
+    "detail": "Research interests: Biological and environmental research activities, specifically in the area of of Microbial Biotechnology & Aquatic and Food Microbiology."
+  },
+  {
+    "id": "11",
+    "name": "Dr. Nusrat Sultana",
+    "designation": "Associate Professor",
+    "Email": "nusrat.bot@gmail.com",
+    "img": "/images/sir/nusrat.jfif",
+    "detail": "About: I am a plant biologist with research expertise in cytogenetics, molecular genetics, plant genomics, and bioinformatics. I have research interests in plant genome evolution with special focus on repetitive DNA, transposable elements, phylogeny, polyploidy and genome size evolution of plant genome."
+  },
+  {
+    "id": "12",
+    "name": "Dr. Sumi Akter",
+    "designation": "Associate Professor",
+    "Email": "sumi.plant@gmail.com",
+    "img": "/images/sir/default.jpg",
+    "detail": "Research Interests: 1. Microbiology,2. Microbial ecology,3. Microbial systematics, 4. Microbial DNA barcoding, 5. Microbial genomics and transcriptomics, 6. Food microbiology and Infectious diseases)"
+  },
+  {
+    "id": "13",
+    "name": "Dr. Ripa Akter Sharmin",
+    "designation": "Associate Professor",
+    "Email": "ripasharmin@bot.jnu.ac.bd",
+    "img": "/images/sir/ripa.jfif",
+    "detail": "About: Novel candidate gene identification in response to various biotic and abiotic stresses through Bioinformatics tools, Transcriptome analysis, and Genome wide association study (GWAS); Genetic improvement of Rice, soybean and Chickpea through biotechnological approaches such as overexpression and CRISPR/CAS9; Differential Gene expression analysis from RNA-Seq data; Physiological, Biochemical and molecular analysis of plants under various abiotic stresses such as flooding and drought."
+  },
+  {
+    "id": "14",
+    "name": "Mr. Bivas Kumar Sarkar",
+    "designation": "Assistant Professor",
+    "Email": "bs25us@yahoo.com",
+    "img": "/images/sir/bivas.png",
+    "detail": "Mobile: +8801711077383"
+  },
+  {
+    "id": "15",
+    "name": "Dr. Mohammad Ali",
+    "designation": "Associate Professor",
+    "Email": "mdali@bot.jnu.ac.bd",
+    "img": "/images/sir/ali.png",
+    "detail": "Research Interests: 1. Microbiology and Microbial Biotechnology, 2. Environmental Chemistry, 3. Environmental Biotechnology, 4. Water pollution, 5. Wastewater treatment (Nitrification, Partial Nitrification, ANAMMOX)"
+  }
+]

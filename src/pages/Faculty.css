@@ -1,0 +1,76 @@
+section.main.faculty {
+  width: 100%;
+  height: 93vh;
+  background-color: #0f2226;
+}
+
+section.overview {
+  width: 100%;
+  padding-bottom: 3vh;
+  background: #0f2226;
+}
+
+section.overview .textbox {
+  width: min(80%, 700px);
+  margin: 0 auto;
+  background-color: #2e4f4f;
+}
+
+section.overview .textbox .title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+section.overview .textbox p.des {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 15px;
+  padding: 0 40px;
+  padding-bottom: 40px;
+  line-height: 2rem;
+}
+
+section.overview .textbox p.des::first-letter {
+  color: #0f2226;
+  initial-letter: 2;
+  padding: 5px;
+  padding-left: 0;
+}
+
+section.members {
+  background-color: #183233;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10vh;
+  border-top: 1px solid orange;
+}
+
+section.members .image {
+  width: 100%;
+  text-align: center;
+}
+
+section.members .image img {
+  width: 80px;
+  opacity: 0.9;
+}
+
+section.members .title {
+  text-align: center;
+  font-family: monospace;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+}
+
+section.members .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 90%;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 20px 0;
+}

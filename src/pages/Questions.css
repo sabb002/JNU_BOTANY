@@ -1,0 +1,89 @@
+section.main.questions {
+  width: 100%;
+  background: #0f2226;
+  min-height: 94vh;
+  padding-bottom: 50px;
+}
+
+section.main.questions h2.courseTitle {
+  font-family: "Poppins", monospace;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 100px;
+  background: -webkit-linear-gradient(to left, #753a88, #cc2b5e);
+  background: linear-gradient(to left, #753a88, #cc2b5e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.main.questions .links {
+  width: min(80%, 600px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 5px;
+  padding-top: 50px;
+}
+
+section.main.questions .links.semester {
+  width: min(55%, 400px);
+  padding-top: 50px;
+}
+
+section.main.questions .links a {
+  height: fit-content;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  user-select: none;
+}
+
+section.main.questions .links a.active {
+  border-top: 1px solid #753a88;
+  border-right: 1px solid #753a88;
+  border-bottom: 1px solid #cc2b5e;
+  border-left: 1px solid #cc2b5e;
+}
+
+section.main.questions .links a:hover {
+  border: none;
+  color: white;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+}
+
+section.main.questions .questionHero {
+  width: min(70%, 400px);
+  margin: 0 auto;
+  margin-top: 50px;
+  opacity: 0.9;
+}
+
+section.main.questions .questionHero:hover {
+  transform: scale(1.05);
+}
+
+section.main.questions .questionHero img {
+  width: 100%;
+}
+
+/* ------All subjects under each semester------ */
+
+section.main.questions .allSubjects {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: max(7vw, 50px);
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+}
+
+section.main.questions .allSubjects a {
+  text-decoration: none;
+}

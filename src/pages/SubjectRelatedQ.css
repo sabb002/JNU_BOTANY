@@ -1,0 +1,147 @@
+.subjectRelatedQ {
+  background-color: #0f2226;
+  padding-top: 100px;
+  color: white;
+  height: 100vh;
+}
+
+.subjectRelatedQ .courseName {
+  width: 200px;
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #cc2b5e;
+}
+
+.subjectRelatedQ .loading {
+  margin-top: 50px;
+}
+
+.subjectRelatedQ .questionList {
+  width: min(90%, 1000px);
+  margin: 50px auto;
+}
+
+.subjectRelatedQ .questionList .eachQuestion {
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: space-between;
+  gap: 1%;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: default;
+  user-select: none;
+  border-left: 3px solid transparent;
+}
+
+.subjectRelatedQ .questionList .eachQuestion:hover,
+.subjectRelatedQ .questionList .eachQuestion:focus {
+  border-left: 3px solid #cc2b5e;
+}
+
+.subjectRelatedQ .questionList .eachQuestion .filename {
+  font-family: monospace;
+  font-size: 14px;
+  flex-basis: 100%;
+}
+
+.subjectRelatedQ .questionList .eachQuestion a.preview {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+
+  width: 35px;
+}
+
+.subjectRelatedQ .questionList .eachQuestion a.preview:hover {
+  color: orange;
+}
+
+.subjectRelatedQ .questionList .eachQuestion a.download {
+  text-decoration: none;
+  width: 35px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.subjectRelatedQ .questionList .eachQuestion a.download:hover {
+  color: orange;
+}
+
+.subjectRelatedQ .upload {
+  width: min(60%, 300px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.subjectRelatedQ .upload input[type="file"] {
+  font-size: 15px;
+}
+
+.subjectRelatedQ .upload .done {
+  background-color: #008cba;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.subjectRelatedQ .upload .percent {
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 15px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.subjectRelatedQ .questionList .nothing {
+  width: min(80%, 400px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subjectRelatedQ .questionList .nothing h5 {
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #cc2b3e;
+}
+
+.subjectRelatedQ .questionList .nothing p {
+  font-size: 15px;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.subjectRelatedQ .questionList .nothing p a {
+  color: #cc2b5e;
+}
+
+.subjectRelatedQ .nothing img {
+  width: 60%;
+  margin-top: 50px;
+  opacity: 0.8;
+  animation: astronaut 2s ease infinite alternate;
+}
+
+@keyframes astronaut {
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subjectRelatedQ .questionList .nothing p {
+    font-size: 11px;
+  }
+}

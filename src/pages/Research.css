@@ -1,0 +1,115 @@
+section.research.main {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  background-color: #0f2226;
+  user-select: none;
+  border-bottom: 1px solid orange;
+}
+
+section.research.main .title {
+  font-family: "Poppins", sans-serif;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to left, #753a88, #cc2b5e);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  padding: 2% 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+section.research.main p.des {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  width: 90%;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+section.research.main .box {
+  width: min(80%, 700px);
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  border-bottom: 7px solid seagreen;
+}
+
+section.research.main .box h4 {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: seagreen;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid green;
+}
+
+section.research.main .box ul {
+  color: black;
+
+  padding-left: 60px;
+}
+
+section.research.main .box ul > li {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 14px;
+  padding: 15px;
+  list-style-type: lower-roman;
+}
+
+section.researchPaper {
+  background-color: #0f2226;
+  padding: 25px 0;
+}
+
+section.researchPaper h2.title {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: oldlace;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+section.researchPaper .eachYear {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  padding: 10px 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  border-left: 3px solid transparent;
+}
+
+section.researchPaper .eachYear h5 {
+  font-family: "forte", system-ui, -apple-system, sans-serif;
+  color: seagreen;
+  font-size: 25px;
+  float: right;
+}
+
+section.researchPaper .eachYear ul {
+  padding: 15px;
+  padding-top: 20px;
+}
+
+section.researchPaper .eachYear ul > li {
+  font-family: "open sans", sans-serif;
+  font-size: 13px;
+  line-height: 35px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cc2b5e;
+  list-style-position: inside;
+  list-style-type: decimal-leading-zero;
+}
+
+section.researchPaper .eachYear:hover {
+  border-left: 3px solid #cc2b5e;
+}

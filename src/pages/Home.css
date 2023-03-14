@@ -1,0 +1,145 @@
+section.main.home {
+  font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
+  width: 100%;
+  background: #0f2226;
+  display: flex;
+  align-items: center;
+  min-height: 750px;
+}
+
+section.main .textbox {
+  user-select: none;
+  width: max(50%, 100%);
+  padding: 2% 3%;
+}
+
+section.main .textbox .h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section.main .textbox .h2 {
+  font-family: "Poppins", sans-serif;
+  color: #0f2226;
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.1),
+    rgba(255, 255, 255, 0.5)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 5px transparent;
+  padding-bottom: 10px;
+}
+
+section.main .textbox h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section.main .textbox .h2 span {
+  font-family: "Poppins", monospace;
+  padding: 5px;
+  font-size: 45px;
+}
+
+section.main .textbox p {
+  font-family: monospace;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  width: min(80%, 800px);
+  padding: 3% 0;
+}
+
+section.main .comingSoon {
+  width: 100%;
+  height: 180px;
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+section.content {
+  background: #183233;
+  padding: 50px 0;
+}
+
+section.content .message {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+section.content .message .image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.content .message .image img {
+  width: 200px;
+  margin-top: 25px;
+  border: 5px solid white;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+section.content .message .image h4 {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: -webkit-linear-gradient(to left, #753a88, #cc2b5e);
+  background: linear-gradient(to left, #753a88, #cc2b5e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section.content .message .text {
+  font-family: system-ui, -apple-system, sans-serif;
+  width: 100%;
+  padding-bottom: 10px;
+}
+section.content .message .text h3 {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #0f2226;
+
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+section.content .message .text p.des {
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 0 25px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  section.main.home {
+    padding-top: 20vh;
+    flex-direction: column;
+  }
+  section.main .textbox .h2 {
+    width: 400px;
+  }
+
+  section.main .textbox .h2 span {
+    display: block;
+    padding: 0 5px;
+  }
+
+  section.content .message {
+    flex-direction: column;
+  }
+}

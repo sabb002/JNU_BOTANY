@@ -1,0 +1,193 @@
+section.footer {
+  background: #0f2226;
+  display: flex;
+  flex-direction: column;
+}
+
+section.footer .linkContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+
+section.footer .linkContainer .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+section.footer .linkContainer .links h3 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section.footer .linkContainer .links .social {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+section.footer .linkContainer .links .social p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: monospace;
+  font-size: 13px;
+}
+
+/*Adil && Jabir*/
+
+section.footer .linkContainer .links .social .adil,
+section.footer .linkContainer .links .social .jabir {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+section.footer .linkContainer .links .social .adil img,
+section.footer .linkContainer .links .social .jabir img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+}
+
+section.footer .linkContainer .links .social .adil a,
+section.footer .linkContainer .links .social .jabir a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+section.footer .linkContainer .links .social .adil a:hover,
+section.footer .linkContainer .links .social .jabir a:hover {
+  color: white;
+}
+
+section.footer .linkContainer .links .link {
+  display: flex;
+  gap: 3vw;
+}
+
+section.footer .linkContainer .links .link .one {
+  display: flex;
+  flex-direction: column;
+}
+
+section.footer .linkContainer .links .link .two {
+  display: flex;
+  flex-direction: column;
+}
+
+section.footer .linkContainer .links .link .one a,
+section.footer .linkContainer .links .link .two a {
+  font-family: monospace;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+section.footer .linkContainer .email p {
+  font-family: monospace;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 1rem 0;
+}
+
+section.footer .linkContainer .email form {
+  display: flex;
+  align-items: center;
+}
+
+section.footer .linkContainer .email input {
+  font-family: monospace;
+  width: 300px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 17px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  outline: transparent;
+  letter-spacing: 1px;
+}
+section.footer .linkContainer .email input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+section.footer .linkContainer .email .send {
+  width: 100px;
+  height: 50px;
+  font-size: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-left: none;
+  background-color: transparent;
+  outline: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.footer .linkContainer .email .send:hover,
+section.footer .linkContainer .email .send:focus {
+  background: -webkit-linear-gradient(
+    to right,
+    #753a88,
+    #cc2b5e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  color: white;
+}
+
+section.footer .linkContainer .email span {
+  font-family: "monospace";
+  color: rgba(255, 255, 255, 0.5);
+  padding: 0 10px;
+}
+
+section.footer .linkContainer .email a {
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+section.footer .linkContainer .email a:hover {
+  color: white;
+}
+
+/*line*/
+section.footer .line {
+  width: 95%;
+  height: 1px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+@media screen and (max-width: 800px) {
+  section.footer .linkContainer {
+    flex-direction: column;
+    margin: 50px 0;
+    gap: 50px;
+  }
+
+  section.footer .linkContainer .links .link {
+    justify-content: center;
+  }
+
+  section.footer .linkContainer .links h3 {
+    text-align: center;
+  }
+
+  section.footer .linkContainer .email input {
+    width: 200px;
+  }
+
+  section.footer .linkContainer .email .send {
+    width: 60px;
+  }
+
+  section.footer .line {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,48 @@
+article.subject {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  box-shadow: 0px 10px 15px -3px black;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+}
+
+article.subject:hover {
+  transform: scale(1.01);
+}
+
+article.subject .image {
+  flex-basis: 75%;
+}
+
+article.subject .textWrapper {
+  flex-grow: 1;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+article.subject .textWrapper h3.code {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: monospace;
+  font-size: 16px;
+  height: 100%;
+  flex-basis: 33%;
+  padding: 0 15px;
+  display: grid;
+  place-items: center;
+  background: #cc2b5e;
+  letter-spacing: 1px;
+}
+
+article.subject .textWrapper h4.course {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: monospace;
+  font-size: 14px;
+  height: 100%;
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}

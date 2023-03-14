@@ -1,0 +1,56 @@
+svg#scrollToTop {
+  position: fixed;
+  bottom: 55px;
+  left: 20px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+}
+
+#darkGroup {
+  /* fill: #635bff; */
+  fill: #4e6e81;
+}
+#lightGroup {
+  /* fill: #80e9ff; */
+  fill: #2b3467;
+}
+#dark1,
+#light1,
+#dark2 {
+  transition: all 1s ease;
+}
+
+#dark2 {
+  transform: translateX(-100%);
+}
+
+svg #light1 {
+  animation: light1 2s ease infinite;
+}
+svg #dark1 {
+  animation: dark1 2s ease infinite;
+}
+svg #dark2 {
+  animation: dark2 2s ease infinite;
+}
+
+@keyframes light1 {
+  to {
+    transform: translateX(20%);
+    opacity: 0;
+  }
+}
+
+@keyframes dark1 {
+  to {
+    transform: translateX(40%);
+    opacity: 0;
+  }
+}
+
+@keyframes dark2 {
+  to {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+}
