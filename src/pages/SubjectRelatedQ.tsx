@@ -120,8 +120,10 @@ export default function SubjectRelatedQ({ course, filepath, courseQ }: Props) {
             <div className="nothing">
               <h5>NO DATA FOUND!</h5>
               <p>
-                <a href="https://wa.me/+8801645179019">Contact me</a> to add
-                question papers to the site.
+                <a href="https://wa.me/+8801645179019" target="_blank">
+                  Contact me
+                </a>{" "}
+                to add question papers to the site.
               </p>
               <img src="/images/nothingFound.png" alt="Nothing Found" />
             </div>
