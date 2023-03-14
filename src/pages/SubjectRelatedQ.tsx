@@ -103,7 +103,7 @@ export default function SubjectRelatedQ({ course, filepath, courseQ }: Props) {
               return (
                 <div key={index} className="eachQuestion">
                   <h4 className="filename">{filename[index]}</h4>
-                  <a href={url} className="preview">
+                  <a href={url} className="preview" target="_blank">
                     <FaEye />
                   </a>
                   <a
