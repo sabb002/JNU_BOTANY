@@ -72,7 +72,7 @@ export default function Home() {
               initial={{ x: 0 }}
               animate={{ x: -700 }}
               transition={{
-                duration: 100,
+                duration: 25,
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "reverse",
@@ -86,7 +86,7 @@ export default function Home() {
               initial={{ x: -500 }}
               animate={{ x: 0 }}
               transition={{
-                duration: 120,
+                duration: 50,
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "reverse",
@@ -96,11 +96,12 @@ export default function Home() {
               d="M3050 750L0 750 L0 481.47Q78.57 410.05, 150 488.62Q260.06 448.68, 300 558.75Q410.3 419.05, 550 529.34Q631.32 460.66, 700 541.99Q806.19 398.18, 950 504.37Q1088.59 392.96, 1200 531.56Q1332.67 414.23, 1450 546.91Q1551.67 398.58, 1700 500.24Q1806.6 456.84, 1850 563.44Q1881.94 445.38, 2000 477.33Q2086.55 413.88, 2150 500.43Q2299.94 400.37, 2400 550.31Q2531.36 431.66, 2650 563.02Q2711.86 474.88, 2800 536.73Q2900.62 387.35, 3050 487.96z"
               fill="rgba(70, 91, 92, 0.7)"
             ></motion.path>
+
             <motion.path
               initial={{ x: 0 }}
               animate={{ x: -700 }}
               transition={{
-                duration: 100,
+                duration: 75,
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "reverse",
@@ -110,16 +111,22 @@ export default function Home() {
               d="M3150 750L0 750 L0 685.58Q126.86 562.44, 250 689.31Q362.32 551.63, 500 663.94Q541.76 555.71, 650 597.47Q752.81 550.28, 800 653.08Q890.64 593.72, 950 684.36Q985.21 569.57, 1100 604.77Q1259.07 513.84, 1350 672.9Q1374.73 547.63, 1500 572.36Q1585.13 507.5, 1650 592.63Q1754.62 547.25, 1800 651.87Q1867.02 568.89, 1950 635.91Q2010.66 546.58, 2100 607.24Q2209.78 467.01, 2350 576.79Q2514.8 491.59, 2600 656.39Q2681.14 587.53, 2750 668.67Q2775.41 544.08, 2900 569.48Q3031.86 451.35, 3150 583.21z"
               fill="rgba(93, 112, 112, 1)"
             ></motion.path>
-            <path
+
+            <motion.path
+              initial={{ x: 0 }}
+              animate={{ x: -700 }}
+              transition={{
+                duration: 25,
+                ease: "linear",
+                repeat: Infinity,
+                repeatType: "reverse",
+                repeatDelay: 0,
+                yoyo: true,
+              }}
               d="M3250 750L0 750 L0 774.05Q18.79 642.84, 150 661.62Q286.21 547.83, 400 684.04Q503.25 637.29, 550 740.55Q664.62 605.16, 800 719.78Q850.94 620.72, 950 671.66Q1090.48 562.14, 1200 702.62Q1305.82 658.44, 1350 764.26Q1454.63 618.89, 1600 723.53Q1713.26 586.78, 1850 700.04Q1949.37 649.4, 2000 748.77Q2118.09 616.86, 2250 734.95Q2301.44 636.39, 2400 687.83Q2521.84 659.67, 2550 781.52Q2586.92 668.44, 2700 705.36Q2782.06 637.42, 2850 719.48Q2912.66 632.14, 3000 694.8Q3151.9 596.7, 3250 748.6z"
               fill="white"
-            ></path>
+            ></motion.path>
           </g>
-          <defs>
-            <mask id="SvgjsMask1014">
-              <rect width="3000" height="750" fill="#ffffff"></rect>
-            </mask>
-          </defs>
         </svg>
         <motion.div
           className="textbox"
