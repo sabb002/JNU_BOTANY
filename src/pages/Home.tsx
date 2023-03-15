@@ -153,10 +153,14 @@ export default function Home() {
             Alphonse Karr
           </motion.p>
         </motion.div>
-        <div
+        <motion.div
           className="comingSoon"
-          style={{ backgroundImage: "url(/images/under.png)" }}
-        ></div>
+          variants={itemVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          beta version
+        </motion.div>
       </section>
       <section className="content ">
         <motion.div

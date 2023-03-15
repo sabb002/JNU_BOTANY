@@ -4,7 +4,6 @@ section.main.home {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
   min-height: 800px;
 }
 
@@ -16,7 +15,7 @@ section.main.home svg.background {
 
 section.main .textbox {
   user-select: none;
-  width: max(50%, 100%);
+  width: max(50%, 95%);
   padding: 2% 3%;
 }
 
@@ -61,12 +60,15 @@ section.main .textbox p {
 }
 
 section.main .comingSoon {
-  width: 100%;
-  height: 180px;
-  opacity: 0.8;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  font-size: 20px;
+  padding: 5px 10px;
+  background: -webkit-linear-gradient(to left, #f83600, #fe8c00);
+  background: linear-gradient(to left, #f83600, #fe8c00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section.content {
@@ -151,5 +153,10 @@ section.content .message .text p.des {
 
   section.content .message {
     flex-direction: column;
+  }
+
+  section.main .comingSoon {
+    margin-left: 10px;
+    align-self: flex-start;
   }
 }
