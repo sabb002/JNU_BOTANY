@@ -86,7 +86,7 @@ export default function Home() {
               initial={{ x: -500 }}
               animate={{ x: 0 }}
               transition={{
-                duration: 100,
+                duration: 120,
                 ease: "linear",
                 repeat: Infinity,
                 repeatType: "reverse",
