@@ -46,7 +46,7 @@ export default function Card({ variants, ref }: Props) {
                 }}
               >
                 <motion.div
-                  animate={{ rotate: member.plus ? 0 : 180 }}
+                  animate={{ rotateY: member.plus ? 0 : 180 }}
                   transition={{ bounce: 0 }}
                 >
                   {member.plus ? (

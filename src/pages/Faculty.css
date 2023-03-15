@@ -39,6 +39,7 @@ section.overview .textbox p.des::first-letter {
 }
 
 section.members {
+  overflow-x: hidden;
   background-color: #183233;
   display: flex;
   flex-direction: column;
@@ -69,8 +70,7 @@ section.members .title {
 section.members .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  width: 90%;
+  width: 90vw;
   gap: 20px;
-  margin: 0 auto;
   padding: 20px 0;
 }

@@ -1,10 +1,10 @@
 section.members .container .wrapper {
   width: 100%;
   height: fit-content;
-  background: rgba(0, 0, 0, 0.3);
+  background: white;
   font-family: monospace;
   padding: 15px 10px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 section.members .container .wrapper .card {
@@ -16,11 +16,11 @@ section.members .container .wrapper .card {
 }
 
 section.members .container .wrapper .card .photo {
-  width: 60px;
-  height: 50px;
+  width: 70px;
+  height: 60px;
   border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 3px;
+  border: 2px solid rgba(255, 255, 255);
 }
 
 section.members .container .wrapper .card .photo:hover {
@@ -38,16 +38,15 @@ section.members .container .wrapper .card .info {
 }
 
 section.members .container .wrapper .card .info .name {
-  font-family: sans-serif;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 17px;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: seagreen;
+  font-size: 13px;
   align-items: flex-start;
 }
 
 section.members .container .wrapper .card .info .designation {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
+  color: gray;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -60,7 +59,7 @@ section.members .container .wrapper .card button {
   border: none;
 }
 section.members .container .wrapper .card button .plus {
-  color: rgba(255, 166, 0, 0.7);
+  color: seagreen;
 }
 
 section.members .container .wrapper .card button .minus {
@@ -78,5 +77,5 @@ section.members .container .wrapper .detail {
 
 section.members .container .wrapper .detail div {
   font-family: sans-serif;
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
 }

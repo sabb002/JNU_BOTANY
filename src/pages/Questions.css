@@ -27,7 +27,7 @@ section.main.questions .links {
 }
 
 section.main.questions .links.semester {
-  width: min(55%, 400px);
+  width: min(50%, 400px);
   padding-top: 50px;
 }
 
