@@ -103,23 +103,19 @@ function App() {
 
         <Route
           path="questions/first/2ndSemester/BOT1201"
-          element={<SubjectRelatedQ course="BOT-1201" filepath="BOT1101" />}
+          element={<SubjectRelatedQ course="BOT-1201" filepath="BOT1201" />}
         />
         <Route
           path="questions/first/2ndSemester/BOT1202"
-          element={<SubjectRelatedQ course="BOT-1202" filepath="BOT1101" />}
+          element={<SubjectRelatedQ course="BOT-1202" filepath="BOT1202" />}
         />
         <Route
           path="questions/first/2ndSemester/BOT1203"
-          element={<SubjectRelatedQ course="BOT-1203" filepath="BOT1101" />}
+          element={<SubjectRelatedQ course="BOT-1203" filepath="BOT1203" />}
         />
         <Route
           path="questions/first/2ndSemester/BOT1204"
-          element={<SubjectRelatedQ course="BOT-1204" filepath="BOT1101" />}
-        />
-        <Route
-          path="questions/first/2ndSemester/BOT1205"
-          element={<SubjectRelatedQ course="BOT-1205" filepath="BOT1101" />}
+          element={<SubjectRelatedQ course="BOT-1204" filepath="BOT1204" />}
         />
 
         {/*================================ */}
