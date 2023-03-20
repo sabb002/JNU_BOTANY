@@ -1,5 +1,8 @@
 [
   {
+    "img": "/images/faculty/JNU.jpg"
+  },
+  {
     "img": "/images/faculty/one.jpg"
   },
   {
@@ -7,9 +10,6 @@
   },
   {
     "img": "/images/faculty/three.jpg"
-  },
-  {
-    "img": "/images/faculty/JNU.jpg"
   },
   {
     "img": "https://images.unsplash.com/photo-1678144951569-7ee322a5940a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
