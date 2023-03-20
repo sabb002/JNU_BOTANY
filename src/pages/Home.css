@@ -73,7 +73,7 @@ section.main .comingSoon {
 
 section.content {
   background: white;
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 section.content .message {
@@ -83,7 +83,7 @@ section.content .message {
   margin: 0 auto;
   background-color: white;
   padding: 5px;
-  border-radius: 20px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
 section.content .message .image {
@@ -99,6 +99,7 @@ section.content .message .image img {
   border: 5px solid white;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
+
 section.content .message .image h4 {
   font-family: system-ui, -apple-system, sans-serif;
   background: -webkit-linear-gradient(to left, #753a88, #cc2b5e);

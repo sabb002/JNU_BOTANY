@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Faculty from "./pages/Faculty";
 import Questions from "./pages/Questions";
 import Research from "./pages/Research";
+import Notes from "./pages/Notes";
 
 import Copyright from "./components/Copyright";
 
@@ -225,6 +226,7 @@ function App() {
         {/*================================ */}
 
         <Route path="research" element={<Research />} />
+        <Route path="notes" element={<Notes />} />
 
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

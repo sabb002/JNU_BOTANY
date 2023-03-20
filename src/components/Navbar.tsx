@@ -82,14 +82,14 @@ export default function Navbar() {
         </Link>
 
         <Link
-          to="alumni"
-          className={activeLink === "alumni" ? "active" : ""}
+          to="notes"
+          className={activeLink === "notes" ? "active" : ""}
           onClick={() => {
             toggleMenu;
-            toggleLink("alumni");
+            toggleLink("notes");
           }}
         >
-          Alumni
+          Notes
         </Link>
       </ul>
 
