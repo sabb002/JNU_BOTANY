@@ -23,4 +23,3 @@ export default function Subject({ image, course, code }: Props) {
     </article>
   );
 }
-// `${image}`

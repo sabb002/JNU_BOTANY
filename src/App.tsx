@@ -27,22 +27,20 @@ import SecondSemester_3 from "./pages/questions/thirdYear/SecondSemester";
 
 import SubjectRelatedQ from "./pages/SubjectRelatedQ";
 
-import BOT1101 from "./Data/course/BOT1101.json";
-import BOT1102 from "./Data/course/BOT1102.json";
 
 function App() {
-  const { pathname } = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [location.pathname]);
 
   return (
     <div className="App">
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="faculty" element={<Faculty />} />
 
         <Route path="questions" element={<Questions />}>
@@ -74,7 +72,7 @@ function App() {
             <SubjectRelatedQ
               course="BOT-1101"
               filepath="BOT1101"
-              courseQ={BOT1101}
+              courseQ={""}
             />
           }
         />
@@ -84,7 +82,7 @@ function App() {
             <SubjectRelatedQ
               course="BOT-1102"
               filepath="BOT1102"
-              courseQ={BOT1102}
+              courseQ={""}
             />
           }
         />
